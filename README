@@ -1,0 +1,2 @@
+The code named Thermistor uses the internal thermistor to read a temperature. It does this by using 1.5V as a reference voltage. The sample period is 30us and it uses a 12-bit conversion.
+The code named Two Thermistor uses the internal thermistor and an external thermistor to read two temperatures. This code functions nearly identical to the internal temperature sensor, but the code alternates between the external and internal temperature sensor readings by utilizing an m bit to flip between the two. 
